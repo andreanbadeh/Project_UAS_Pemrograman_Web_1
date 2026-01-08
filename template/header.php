@@ -3,7 +3,6 @@ if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
-// Cek halaman sekarang
 $page = isset($_GET['page']) ? $_GET['page'] : '';
 ?>
 
